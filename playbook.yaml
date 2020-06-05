@@ -1,0 +1,10 @@
+---
+- nme: First Playbook
+  hos: localhost
+  become: yes
+  become_mthod: sudo
+  tasks:
+  - name: Task1
+    ping: 
+
+      
